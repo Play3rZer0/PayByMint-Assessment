@@ -1,0 +1,23 @@
+.swiperButtonPrev, 
+.swiperButtonNext {
+  z-index: 10;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  background: rgba(0,0,0,0.5);
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.swiperButtonPrev {
+  left: -40px;
+}
+
+.swiperButtonNext {
+  right: -40px;
+}
